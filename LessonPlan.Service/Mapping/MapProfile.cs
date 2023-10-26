@@ -11,8 +11,8 @@ namespace LessonPlan.Service.Mapping
             CreateMap<Teacher, TeacherDto>().ReverseMap();
             CreateMap<ClassRoom, ClassRoom>().ReverseMap();
             CreateMap<Lesson, LessonDto>().ReverseMap();
+            CreateMap<TeacherUpdateDto, Teacher>();
             CreateMap<LessonPlan.Core.Models.LessonPlan, LessonPlanDto>();
-
         }
 
     }
