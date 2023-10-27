@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+
+@model TeacherDto
+<h1>Update Teacher</h1>
+
+<div class="row">
+
+    <div class=col-md-6>
+
+        <form asp-action="Update" method="post" asp-controller="Teachers">
+            <input type="hidden" asp-for="Id" />
+           
+           <div class="form-group">
+                <label asp-for="TeacherName"></label>
+                <input asp-for="TeacherName" class="form-control" />
+                <span asp-validation-for="TeacherName" class="text-danger"></span>
+            </div>     
+
+           <div class="form-group">
+                <label asp-for="ClassRoomId"></label>
+                <input asp-for="ClassRoomId" class="form-control" />
+                <span asp-validation-for="ClassRoomId" class="text-danger"></span>
+            </div>
+            
+           <div class="form-group">
+                <label asp-for="LessonId"></label>
+                <input asp-for="LessonId" class="form-control" />
+                <span asp-validation-for="LessonId" class="text-danger"></span>
+            </div>
+
+           <div class="form-group">
+                <label asp-for="LessonTimeId"></label>
+                <input asp-for="LessonTimeId" class="form-control" />
+                <span asp-validation-for="LessonTimeId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <input type="submit" value="Update" class="btn-primary" />
+
+            </div>
+        </form>
+
+
+
+    </div>
+
+
+</div>
+

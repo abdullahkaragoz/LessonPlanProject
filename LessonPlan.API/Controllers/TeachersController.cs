@@ -19,8 +19,8 @@ namespace LessonPlan.API.Controllers
             _service = teacherService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> All()
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetAll()
         {
             var teachers = await _service.GetAllAsync();
             var teachersDtos = _mapper.Map<List<TeacherDto>>(teachers.ToList());
