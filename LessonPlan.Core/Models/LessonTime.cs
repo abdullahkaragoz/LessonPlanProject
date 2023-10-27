@@ -1,8 +1,7 @@
 ﻿namespace LessonPlan.Core.Models
 {
-    public class LessonTime
+    public class LessonTime : BaseEntity
     {
-        public int Id { get; set; }
         public DateTime Time { get; set; }
 
 

@@ -2,9 +2,8 @@
 
 namespace LessonPlan.Core.Models
 {
-    public class LessonPlan //NOT: Bu tabloyu tam olarak anlamadığım için boş bıraktım
+    public class LessonPlan : BaseEntity
     {
-        public int Id { get; set; }
         public string PlanSummary { get; set; }
 
         public ICollection<Teacher> Teachers { get; set; }
