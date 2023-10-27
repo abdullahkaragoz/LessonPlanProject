@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonPlan.Repository", "LessonPlan.Repository\LessonPlan.Repository.csproj", "{CCC3A65F-C1E9-4F70-BE84-5219A28FF2EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonPlan.Repository", "LessonPlan.Repository\LessonPlan.Repository.csproj", "{CCC3A65F-C1E9-4F70-BE84-5219A28FF2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonPlan.Core", "LessonPlan.Core\LessonPlan.Core.csproj", "{1E614044-23C7-4E67-9331-299AA63FF65E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonPlan.Core", "LessonPlan.Core\LessonPlan.Core.csproj", "{1E614044-23C7-4E67-9331-299AA63FF65E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonPlan.Service", "LessonPlan.Service\LessonPlan.Service.csproj", "{0482555F-0006-4023-B4FC-76B25F0F8B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonPlan.Service", "LessonPlan.Service\LessonPlan.Service.csproj", "{0482555F-0006-4023-B4FC-76B25F0F8B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonPlan.API", "LessonPlan.API\LessonPlan.API.csproj", "{29884EE9-F130-4BC2-977B-4A58F3FCE2C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonPlan.API", "LessonPlan.API\LessonPlan.API.csproj", "{29884EE9-F130-4BC2-977B-4A58F3FCE2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonPlan.Web", "LessonPlan.Web\LessonPlan.Web.csproj", "{2732AFAC-8ECE-4D1C-BFDB-CEE6FE3D380D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{29884EE9-F130-4BC2-977B-4A58F3FCE2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29884EE9-F130-4BC2-977B-4A58F3FCE2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29884EE9-F130-4BC2-977B-4A58F3FCE2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2732AFAC-8ECE-4D1C-BFDB-CEE6FE3D380D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2732AFAC-8ECE-4D1C-BFDB-CEE6FE3D380D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2732AFAC-8ECE-4D1C-BFDB-CEE6FE3D380D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2732AFAC-8ECE-4D1C-BFDB-CEE6FE3D380D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
